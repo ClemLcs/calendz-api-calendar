@@ -57,6 +57,7 @@
     "@japa/preset-adonis": "^1.2.0",
     "@japa/runner": "^2.5.1",
     "@types/proxy-addr": "^2.0.0",
+    "@types/request": "^2.48.8",
     "@types/source-map-support": "^0.5.7",
     "adonis-preset-ts": "^2.1.0",
     "eslint": "^8.48.0",
@@ -73,8 +74,12 @@
     "@adonisjs/core": "^5.9.0",
     "@adonisjs/redis": "^7.3.3",
     "@adonisjs/repl": "^3.1.11",
+    "cheerio": "^1.0.0-rc.12",
+    "ioredis": "^5.3.2",
+    "moment": "^2.29.4",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
+    "request": "^2.88.2",
     "source-map-support": "^0.5.21"
   }
 }
