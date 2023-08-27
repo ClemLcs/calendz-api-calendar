@@ -4,7 +4,7 @@
   "author": "Calendz",
   "license": "ISC",
   "private": true,
-  "version": "2.3.1",
+  "version": "3.0.0-SNAPSHOT",
   "adonis-version": "4.1.0",
   "main": "index.js",
   "scripts": {
