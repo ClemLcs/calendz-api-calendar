@@ -20,6 +20,9 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+// Parsing calendar
+Route.group(() => {
+
+  // Get with specific date
+  Route.get('/week/:date', 'WeekController.getByDate')
+}).prefix('/v1')
