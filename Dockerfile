@@ -1,5 +1,5 @@
-# Node LTS 12.18.2 on alpine
-FROM node:12.18.2-alpine
+# Node LTS 18.17.1 on alpine
+FROM node:lts-alpine
 LABEL maintainer="Calendz. <https://calendz.app/>"
 
 # creates a directory for the app
@@ -13,4 +13,4 @@ RUN npm install
 RUN npm i -g @adonisjs/cli
 
 # bundle all source code
-COPY . . 
+COPY . .
