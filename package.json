@@ -1,7 +1,10 @@
 {
   "name": "calendz-api-calendar",
-  "version": "1.0.0",
+  "description": "API wrapper for EPSI's agenda",
+  "author": "Calendz",
+  "license": "ISC",
   "private": true,
+  "version": "3.0.0-SNAPSHOT",
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
@@ -9,6 +12,18 @@
     "test": "node ace test",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
+  },
+  "keywords": [
+    "calendz",
+    "calendz-api-calendar"
+  ],
+  "homepage": "https://github.com/calendz/calendz-api-calendar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calendz/calendz-api-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calendz/calendz-api-calendar/issues"
   },
   "eslintConfig": {
     "extends": [
